@@ -1,5 +1,6 @@
 from dotenv import dotenv_values
 from motor.motor_asyncio import AsyncIOMotorClient
+
 import certifi
 
 config = dotenv_values(".env")
